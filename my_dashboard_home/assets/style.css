@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.menu-nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.564);
+    
+}
+.nav-itens{
+    display: flex;
+    color: black;
+}
+.banner{
+   width: 100%;
+   height: 100%;
+  
+}
+.banner figure img {
+    
+    width: 100%;
+}
+.img-gif{
+    position: fixed;
+    width: 14%;
+    height: 24%;
+    margin-left: 20%;
+    top: 14%;
+    border-radius: 12px;
+    position: absolute;
+
+}
+.content{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.list-project{
+    list-style: none;
+}
+.tag{
+    border: solid rgb(220, 200, 200) 1px ;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 120px;
+    justify-items: center;
+    text-align: center;
+    height: 100%;
+    max-height: 30px;
+    color: aliceblue;
+    background-color: black;
+    position: absolute;
+
+}
+.list-content{
+    padding-left: 3%;
+    padding-bottom: 2%;
+    position: relative;
+    margin-left: 2%;
+    border: solid black 1px;
+    width: 100%;
+    max-width: 750px;
+   margin-top: 2px;
+   background-color: rgba(0, 0, 0, 0.153);
+   border-radius: 10px;
+}
+.list-contact{
+    max-width: 750px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.contact-itens{
+  
+    width: 20%;
+    text-align: center;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+.contact-itens i {
+    padding-right: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.linkedin{
+    background-color: rgb(0, 34, 255);
+    color: white;
+}
+.linkedin a{
+    color: white;
+}
+.wpp{
+    background-color: rgba(25, 226, 25, 0.882);
+    color: aliceblue;
+}
+.wpp a{
+    color: aliceblue;
+}
+.github{
+    background-color: black;
+    border-color: white;
+   text-decoration: none;
+   color: aliceblue;
+  
+}
+.github a{
+    color: white;
+}
+
+

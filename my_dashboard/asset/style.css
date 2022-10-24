@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/my_dashboard/img/727094-south-park-wallpapers-1920x1080-phone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.off{
+    display: none;
+}
+.title{
+    margin-top:  9%;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    background-color: rgb(163, 116, 40);
+    width: 50%;
+    margin-left:25%;
+    border-radius: 10px;
+}
+
+#content-form{
+    margin-left: 32.5%;
+    margin-top: 10%;
+    
+   
+
+}
+.form-display{
+   
+    width: 65%;
+    height: 30%;
+    position: fixed;
+  
+ 
+   
+
+    
+   
+
+}
+.formLogin{  
+    width: 65%;
+    height: 30%;
+    border: solid;
+    border-color: rgb(230, 153, 60);
+    background-color: rgb(223, 182, 79);
+    border-radius: 10px;
+  
+  
+   
+}
+.formLogin form{
+    margin-top: 1.5%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: left;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3%;
+
+    
+  
+}
+.btn{
+   margin-left: 80%;
+   margin-top: 1%;
+}
+
+ 
